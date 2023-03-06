@@ -1,0 +1,175 @@
+.list {
+  color: #e3e3e3;
+  text-decoration: none;
+  background-color: #3b251a;
+  border-radius: 40px;
+  margin-right: 4px;
+}
+.list:hover {
+  color: #c8ff30;
+}
+.active {
+  color: #c8ff30;
+}
+.Menulist {
+  color: #fff;
+  text-decoration: none;
+}
+.menulist::before {
+  content: "";
+  height: 5px;
+  width: 5px;
+  display: block;
+  background-color: #fff;
+  color: #fff;
+}
+.Menulist:hover {
+  color: #ff0000;
+}
+.mainButton1 {
+  background-color: #3b251a !important;
+  border-radius: 5px;
+  color: "e2cecf";
+}
+.mainButton2 {
+  background-color: #87cc20 !important;
+  border: 2px solid #87cc20 !important;
+}
+.mainButton1:hover {
+  background-color: #87cc20 !important;
+  border: 2px solid #3b251a;
+}
+.mainButton1:hover .mainButtonLink1 {
+  color: #3b251a !important;
+}
+.mainButton2:hover {
+  background-color: #3b251a !important;
+}
+.mainButton2:hover .mainButtonLink2 {
+  color: #87cc20 !important;
+}
+.mainCard:hover {
+  transform: scale(1.06);
+}
+.lineContainer {
+  position: relative;
+}
+/* .dot::before{
+    content: "•";
+    position: absolute;
+    color: #ff0000;
+    left: 36%;
+    font-size: 27px;
+    line-height: 1;
+} */
+
+/* Footer */
+.FooterButton {
+  color: #1c1c1c !important;
+  border: 1px solid #cecece !important;
+}
+.FooterButton:hover {
+  background-color: transparent !important;
+}
+.FooterLink {
+  text-decoration: none;
+  color: #bdbdbd;
+}
+.FooterLink:hover {
+  color: #bdbdbd;
+}
+
+/* menu */
+.chip:hover {
+  background-color: #ff0000;
+  color: #fff;
+  border: 1px solid #ff0000;
+}
+.menuCard:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.menuCard:hover .action {
+  position: absolute;
+  top: 57%;
+  opacity: 1;
+}
+.menu_Card_Media:hover .menu_CardMedia_img {
+  transform: scale(1.1);
+}
+.MuiTabs-indicator {
+  display: none !important;
+}
+.css-1hhaylb-MuiButtonBase-root-MuiTab-root {
+  background-color: transparent !important;
+  color: transparent !important;
+}
+.css-1r5180i-MuiButtonBase-root-MuiTab-root {
+  background-color: transparent !important;
+}
+.css-1kry8lh-MuiButtonBase-root-MuiTab-root {
+  background-color: transparent !important;
+}
+.Mui-selected {
+  background-color: transparent !important;
+  color: transparent !important;
+}
+.css-6od3lo-MuiChip-label {
+  padding-left: 6px !important;
+  padding-right: 10px !important;
+}
+
+/* login */
+.LoginLink:hover {
+  color: #5c3d2f !important;
+  background-color: #daffa4;
+  border-radius: 5px;
+}
+.loginbtn {
+  background-color: #3b251a !important;
+  color: aliceblue;
+}
+.loginbtn:hover {
+  background-color: #87cc20 !important;
+  color: #3b251a;
+}
+.registerbtn {
+  background-color: #3b251a !important;
+  color: aliceblue;
+}
+.registerbtn:hover {
+  background-color: #87cc20 !important;
+  color: #3b251a;
+}
+.footerbtn{
+  background-color: #3b251a !important;
+  border: 2px solid #e3e3e3 !important;
+  color: #e3e3e3 !important;
+}
+.footerbtn:hover{
+  background-color: #c8ff30 !important;
+  border: 2px solid #e3e3e3 !important;
+  color: #3b251a !important;
+}
+
+
+.productbtn{
+  background-color: #3b251a !important;
+  color:#e2e2e2 !important;
+  border-radius: 30px !important;
+}
+
+.ordrbtn{
+  background-color: #3b251a !important;
+  color:#e2e2e2 !important;
+  border-radius: 30px !important;
+}
+
+.cktbtn{
+  background-color: #3b251a !important;
+  color:#e2e2e2 !important;
+  border-radius: 30px !important;
+}
+
+
+
+
